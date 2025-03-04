@@ -1,0 +1,37 @@
+#tablin{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    width: 80%;
+}
+
+#tablin td, #tablin th {
+    font-size: 15px;
+    border: 2px solid black;
+    padding: 2px 3px 2px 3px;
+}
+
+#tablin tr.Gamma th{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #999175;
+    padding-top: 4px;
+    padding-bottom: 3px;
+}
+
+#tablin tr.Alfa td{
+    font-size: 15px;
+    background-color: #bed6ab;
+}
+
+#tablin tr.Bravo td{
+    font-size: 15px;
+    background-color: #fff9d8;
+}
+
+div.viaje {
+    text-align: left;
+    padding-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+}

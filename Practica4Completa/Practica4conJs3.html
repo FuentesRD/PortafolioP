@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario y datos</title>
+    <script src="Practica4Js3.js"></script>
+    <link rel="stylesheet" href="../about.css">
+</head>
+<body>
+    <h1>Información de formulario</h1>
+    <form onsubmit="return recibirInformacion(event)">
+        <h2>Introduzca su información</h2>
+        Nombre: <input type="text" id="nombre" required> <br>
+        Mail: <input type="email" id="mail" required> <br>
+        Edad: <input type="number" id="edad" required> <br>
+        Genero: <br> 
+        <input type="radio" name="genero" value="Femenino" required> Femenino
+        <input type="radio" name="genero" value="Masculino"> Masculino <br> 
+        Fecha de nacimiento: <input type="date" id="nacimiento" required> <br>
+        Color favorito: <br>
+        <input type="color" id="color"> <br>
+        <button type="submit">Mandar Información</button>
+    </form>
+    <p id="resultado"></p>
+
+    <div>
+        <a href="../Index.html" style="padding-left: 20px;"><button type="button">Index</button></a>
+        <a href="Practica4conJs.html" style="padding-left: 20px;"><button type="button">Parte 1</button></a>
+    </div>
+</body>
+</html>

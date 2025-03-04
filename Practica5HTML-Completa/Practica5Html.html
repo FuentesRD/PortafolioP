@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 5</title>
+    <link rel="stylesheet" href="Practica5css.css">
+</head>
+<body>
+    <h1>Manipulación y modificiación de contenido</h1>
+
+    <p>Introduzca su información</p>
+    <form id="FormularioA">
+        <label for="nombre">Nombre: </label>
+        <input type="text" name="nombre" id="nombre"> <br>
+        <label for="mail">Mail: </label>
+        <input type="email" name="mail" id="mail"> <br>
+        <p>Elija que sabores de helado le gustan:</p>
+        <label for="helado1">Chocolate: </label>
+        <input type="checkbox" name="helado" id="helado1" value="Chocolate"> <br>
+        <label for="helado2">Vainilla: </label>
+        <input type="checkbox" name="helado" id="helado2" value="Vainilla"> <br>
+        <label for="helado3">Fresa: </label>
+        <input type="checkbox" name="helado" id="helado3" value="Fresa"> <br>
+        <p>Genero:</p>
+        <label for="hombre">Hombre</label>
+        <input type="radio" name="genero" id="hombre" value="Hombre"> <br>
+        <label for="mujer">Mujer</label>
+        <input type="radio" name="genero" id="mujer" value="Mujer"> <br>
+        <label for="otro">Otro</label>
+        <input type="radio" name="genero" id="otro" value="Otro"> <br>
+        <p>Hora local</p>
+        <label for="tiempo">Tiempo local</label> <br>
+        <input type="datetime-local" name="tiempo" id="tiempo"> <br>
+        <label for="color">Seleccioné su color favorito:</label> <br>
+        <input type="color" name="color" id="color"> <br>
+        <p>Seleccione que tan satisfecho está con la página web</p>
+        <label for="barra">Nivel de satisfacción (1-10)</label> <br>
+        <input type="range" name="barra" id="barra" step="1" max="10" min="1" value="10">
+        <br>
+        <button type="submit">Enviar información</button>
+    </form>
+    
+    <div>
+        <a href="../Index.html"><button type="button">Index</button></a>
+    </div>
+
+    <h2>Información Introducida</h2>
+    <table id="informacionA"></table>
+    
+    <script src="Practica5js.js"></script>
+</body>
+</html>

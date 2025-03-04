@@ -1,0 +1,40 @@
+body {
+    background-color: #e3ba6a;
+    margin: 50px auto 50px auto;
+    width: 700px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #364461;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    align-self: center;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #6d756a;
+    color: rgba(240, 248, 255, 0.877);
+}
+
+.renglon1 {
+    background-color: #bfa374;
+    color: rgba(255, 255, 255, 0.74);
+}
+
+.renglon2 {
+    background-color: #4d686f;
+    color: rgba(255, 255, 255, 0.74);
+}
+
+tr:hover {
+    background-color: #6d756a;
+    cursor: pointer;
+}
