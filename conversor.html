@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de unidades</title>
+    <link rel="stylesheet" href="conversor.css">
+</head>
+<body>
+    
+    <div class="conversor">
+        <h1>Conversor de unidades</h1>
+        
+        <div class="conversor-bloque">
+            <label for="categoria">Categoría de unidades:</label>
+            <select name="categoria" id="categoria">
+                <option value="temperatura">Temperatura</option>
+                <option value="distancia">Distancia</option>
+                <option value="tiempo">Tiempo</option>
+                <option value="moneda">Moneda</option>
+            </select>
+        </div>
+
+        <div class="conversor-bloque">
+            <input type="number" id="entrada" placeholder="Introduce el valor a convertir">
+            <select name="origen" id="origen"></select>
+            <span> a </span>
+            <select name="destino" id="destino"></select>
+        </div>
+
+        <button type="submit" onclick="convertir()">Convertir</button>
+        <div class="resultado" id="resultado"></div>
+    </div>
+
+    <div>
+        <a href="index.html"><button type="button" class="index">Volver al inicio</button></a>
+    </div>
+
+    <script src="conversor.js"></script>
+</body>
+</html>
