@@ -1,0 +1,100 @@
+body {
+    background-color: #e6fcd9;
+    padding-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cont-bloques {
+padding: 8.5em 30px;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.grid-bloques {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;   
+}
+
+.bloque {
+    background: rgb(205, 238, 187);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    min-height: 450px;
+}
+
+.bloque-texto {
+    font-size: 1.5em;
+    text-align: left; 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    align-items: center;
+    color: #194437;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+a.logo:hover {
+    background-color: #e6fcd9;
+    transition: all 0.8s ease;
+}
+
+.name {
+    border-left: #333 1px solid;
+    padding-left: 10px;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #276955;
+}
+
+
+.titulo {
+    display: flex;
+    font-size: 2.2em;
+    color: #276955;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    pointer-events: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: #276955;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #194437;
+}
